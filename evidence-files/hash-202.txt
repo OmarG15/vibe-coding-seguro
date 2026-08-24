@@ -1,0 +1,2 @@
+EVIDENCIA FICTICIA 202
+Hash ficticio para validación del laboratorio.

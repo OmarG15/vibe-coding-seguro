@@ -1,0 +1,2 @@
+EVIDENCIA FICTICIA 201
+Evento de autenticación para el usuario ficticio bob.

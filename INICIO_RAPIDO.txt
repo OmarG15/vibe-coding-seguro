@@ -1,0 +1,23 @@
+VIBECODING SEGURO - INICIO RAPIDO
+
+1. Descomprime el ZIP o clona el repositorio de GitHub
+2. Abre una terminal en la carpeta.
+3. Ejecuta:
+
+   npm install
+   npm start
+
+4. Abre:
+   http://127.0.0.1:5000
+
+Usuario sugerido para iniciar:
+alice@example.local
+alice123
+
+Para reiniciar el laboratorio:
+npm run reset
+
+Para ejecutar pruebas base:
+npm test
+
+Requisito unico: Node.js 18 o superior.

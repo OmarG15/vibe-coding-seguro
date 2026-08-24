@@ -1,0 +1,15 @@
+{
+  "name": "vibecoding-seguro-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EvidenceHub - laboratorio local e intencionalmente vulnerable para VibeCoding Seguro",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "reset": "node reset_lab.js",
+    "test": "node --test tests/*.test.js"
+  }
+}

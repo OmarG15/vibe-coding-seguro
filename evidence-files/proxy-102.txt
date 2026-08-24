@@ -1,0 +1,2 @@
+EVIDENCIA FICTICIA 102
+Solicitud HTTP capturada durante la investigación.

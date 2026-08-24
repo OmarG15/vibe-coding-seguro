@@ -1,0 +1,15 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #1f2333; background: #f5f6fa; }
+body { margin: 0; }
+header { display:flex; justify-content:space-between; align-items:center; padding:18px 28px; background:#17192a; color:white; }
+header span { margin-left:12px; opacity:.65; }
+.layout { display:grid; grid-template-columns:1fr 1fr; gap:20px; max-width:1100px; margin:30px auto; padding:0 20px; }
+.card { background:white; border:1px solid #dedfea; border-radius:10px; padding:22px; box-shadow:0 6px 18px rgba(20,20,40,.06); }
+.narrow { max-width:420px; margin:70px auto; }
+label { display:block; margin:14px 0; }
+input { width:100%; padding:10px; box-sizing:border-box; margin-top:6px; }
+button { padding:9px 13px; cursor:pointer; }
+.item { display:block; width:100%; text-align:left; margin:8px 0; }
+.inline { display:inline; margin-left:10px; }
+pre { min-height:220px; background:#f7f7fb; padding:14px; overflow:auto; }
+.error { color:#a31818; }
+.hint { opacity:.65; font-size:.9rem; }

@@ -1,0 +1,13 @@
+{
+  "users": [
+    {"id":1,"email":"alice@example.local","password":"alice123","role":"analyst"},
+    {"id":2,"email":"bob@example.local","password":"bob123","role":"analyst"},
+    {"id":3,"email":"analyst@example.local","password":"analyst123","role":"reviewer"}
+  ],
+  "evidence": [
+    {"id":101,"owner_id":1,"title":"Alerta endpoint","classification":"Interno","notes":"Indicadores asociados al host A-17.","filename":"alerta-101.txt"},
+    {"id":102,"owner_id":1,"title":"Captura de proxy","classification":"Confidencial","notes":"Solicitud HTTP capturada durante la investigación.","filename":"proxy-102.txt"},
+    {"id":201,"owner_id":2,"title":"Registro VPN","classification":"Interno","notes":"Evento de autenticación para el usuario ficticio bob.","filename":"vpn-201.txt"},
+    {"id":202,"owner_id":2,"title":"Hash de archivo","classification":"Confidencial","notes":"Hash ficticio para validación del laboratorio.","filename":"hash-202.txt"}
+  ]
+}
