@@ -7,7 +7,7 @@ Este es un repositorio de ejemplo para demostrar el uso de Vibe en un proyecto d
 Para instalar las dependencias necesarias, sigue estos pasos:
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone
+   git clone https://github.com/OmarG15/vibe-coding-seguro
    ```
 2. Navega al directorio del proyecto:
    ```bash
