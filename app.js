@@ -121,9 +121,9 @@ const server = http.createServer(async (req, res) => {
   if (req.method === 'GET' && match) {
     const user = requireAuth(req, res); if (!user) return;
     const evidenceId = Number(match[1]);
-    // LAB D1: autenticación existe, pero la autorización por recurso está incompleta.
     const row = readDb().evidence.find(e => e.id === evidenceId);
     if (!row) return json(res, 404, { error: 'not found' });
+    if (row.owner_id !== user.id) return json(res, 403, { error: 'forbidden' });
     return json(res, 200, row);
   }
   if (req.method === 'PATCH' && match) {

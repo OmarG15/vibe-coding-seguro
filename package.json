@@ -10,6 +10,6 @@
   "scripts": {
     "start": "node app.js",
     "reset": "node reset_lab.js",
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js tests/security-regression.template.js"
   }
 }
